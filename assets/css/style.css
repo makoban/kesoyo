@@ -682,12 +682,14 @@ h1, h2, h3, h4 {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .howto-wrapper {
+    .howto-wrapper,
+    .performance-wrapper {
         grid-template-columns: 1fr;
         gap: 40px;
     }
 
-    .howto-text {
+    .howto-text,
+    .performance-text {
         text-align: center;
     }
 
@@ -695,12 +697,17 @@ h1, h2, h3, h4 {
         display: inline-block;
         text-align: left;
     }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 768px) {
-    .hero-title { font-size: 2.2rem; }
-    .section { padding: 70px 0; }
-    .section-title { font-size: 1.6rem; }
+    .hero-title { font-size: 2rem; }
+    .section { padding: 60px 0; }
+    .section-title { font-size: 1.5rem; }
 
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -711,18 +718,95 @@ h1, h2, h3, h4 {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
+
+    .stats-grid.stats-3col {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-number-text {
+        font-size: 1rem;
+    }
+
+    .stat-label {
+        font-size: 0.65rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contact-btn {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
-    .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
+    html, body {
+        overflow-x: hidden;
     }
 
-    .card-image {
-        aspect-ratio: 3/4;
+    .container {
+        padding: 0 16px;
+    }
+
+    .hero-title { font-size: 1.6rem; }
+    .hero-desc { font-size: 0.85rem; }
+    .section { padding: 50px 0; }
+    .section-title { font-size: 1.3rem; }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .card-content {
+        padding: 12px;
+    }
+
+    .card-content h4 {
+        font-size: 0.8rem;
+    }
+
+    .card-content p {
+        font-size: 0.7rem;
     }
 
     .gift-grid {
         grid-template-columns: 1fr;
+    }
+
+    .stats-grid.stats-3col {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .stat-item {
+        padding: 16px;
+    }
+
+    .pricing-card {
+        margin: 0;
+    }
+
+    .pricing-header {
+        padding: 24px 16px 16px;
+    }
+
+    .pricing-body {
+        padding: 24px 16px;
+    }
+
+    .price .amount {
+        font-size: 2.5rem;
+    }
+
+    .footer {
+        padding: 40px 0;
     }
 }
