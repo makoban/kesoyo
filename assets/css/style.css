@@ -373,6 +373,130 @@ h1, h2, h3, h4 {
     margin: 0 auto;
 }
 
+/* Pricing */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pricing-card {
+    background: #fff;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-4px);
+}
+
+.pricing-card.featured {
+    border: 2px solid var(--accent);
+}
+
+.pricing-badge {
+    position: absolute;
+    top: 16px;
+    right: -32px;
+    background: var(--accent);
+    color: #fff;
+    padding: 4px 40px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transform: rotate(45deg);
+}
+
+.pricing-header {
+    padding: 32px 24px 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.plan-label {
+    font-family: var(--font-en);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    color: var(--text-light);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.pricing-header h4 {
+    font-family: var(--font-jp);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pricing-body {
+    padding: 32px 24px;
+    text-align: center;
+}
+
+.price {
+    margin-bottom: 24px;
+}
+
+.price .currency {
+    font-size: 1.2rem;
+    vertical-align: top;
+    color: var(--primary);
+}
+
+.price .amount {
+    font-family: var(--font-en);
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: -0.02em;
+}
+
+.price .period {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+.price .tax {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin-top: 4px;
+}
+
+.pricing-features {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.pricing-features li {
+    padding: 8px 0;
+    font-size: 0.9rem;
+    color: var(--text);
+}
+
+.pricing-note {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    margin-bottom: 16px;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-outline:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
 /* CTA */
 .cta {
     background: linear-gradient(135deg, var(--primary) 0%, #333 100%);
