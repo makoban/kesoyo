@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KESOYO | インテリアに溶け込む、新しい安全のカタチ</title>
     <meta name="description" content="KESOYO（ケソーヨ）- 気体で消すから跡が残らない。押すだけ簡単、消防庁確認済みのスマート消火器。">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <h1 class="logo">KESOYO</h1>
-            <a href="#contact" class="btn btn-primary">ご購入はこちら</a>
+            <nav class="nav">
+                <a href="#placement">設置例</a>
+                <a href="#howto">使い方</a>
+                <a href="#gift">ギフト</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary btn-sm">購入する</a>
         </div>
     </header>
 
@@ -22,91 +27,149 @@
             <div class="hero-bg">
                 <img src="assets/images/リビング９．１６.jpg" alt="KESOYO in Living Room">
             </div>
+            <div class="hero-overlay"></div>
             <div class="hero-content">
                 <p class="hero-tagline fade-in">Smart Fire Safety</p>
                 <h2 class="hero-title fade-in delay-1">インテリアに溶け込む、<br>新しい安全のカタチ。</h2>
-                <p class="hero-desc fade-in delay-2">気体で消すから跡が残らない。<br>押すだけ簡単、消防庁確認済み。</p>
+                <p class="hero-desc fade-in delay-2">気体で消すから跡が残らない。押すだけ簡単。</p>
+                <a href="#placement" class="btn btn-white fade-in delay-3">詳しく見る</a>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
             </div>
         </section>
 
         <!-- Section 1: 置き方いろいろ各種 -->
-        <section class="placement section">
+        <section class="placement section" id="placement">
             <div class="container">
                 <div class="section-header center">
                     <span class="section-subtitle">PLACEMENT</span>
-                    <h3 class="section-title">置き方いろいろ各種</h3>
-                    <p class="section-desc">
-                        リビング、カフェ、オフィス、病院、ホテル…<br>
-                        どんな空間にも自然に馴染む、洗練されたデザイン。
-                    </p>
+                    <h3 class="section-title">置き方いろいろ</h3>
+                    <p class="section-desc">どんな空間にも自然に馴染むデザイン</p>
                 </div>
                 <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <img src="assets/images/リビング９．１６.jpg" alt="リビングに置いたKESOYO">
-                        <span class="gallery-label">リビング</span>
+                    <div class="gallery-item card">
+                        <div class="card-image">
+                            <img src="assets/images/リビング９．１６.jpg" alt="リビング">
+                        </div>
+                        <div class="card-content">
+                            <h4>Living</h4>
+                            <p>リビング</p>
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="assets/images/カフェ９．１６.jpg" alt="カフェに置いたKESOYO">
-                        <span class="gallery-label">カフェ</span>
+                    <div class="gallery-item card">
+                        <div class="card-image">
+                            <img src="assets/images/カフェ９．１６.jpg" alt="カフェ">
+                        </div>
+                        <div class="card-content">
+                            <h4>Cafe</h4>
+                            <p>カフェ</p>
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="assets/images/病院９・１６.jpg" alt="病院に置いたKESOYO">
-                        <span class="gallery-label">病院</span>
+                    <div class="gallery-item card">
+                        <div class="card-image">
+                            <img src="assets/images/病院９・１６.jpg" alt="病院">
+                        </div>
+                        <div class="card-content">
+                            <h4>Hospital</h4>
+                            <p>病院</p>
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="assets/images/高級ホテル壁９・１６.jpg" alt="高級ホテルに置いたKESOYO">
-                        <span class="gallery-label">高級ホテル</span>
+                    <div class="gallery-item card">
+                        <div class="card-image">
+                            <img src="assets/images/高級ホテル壁９・１６.jpg" alt="高級ホテル">
+                        </div>
+                        <div class="card-content">
+                            <h4>Hotel</h4>
+                            <p>高級ホテル</p>
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="assets/images/警備員９・１６.jpg" alt="警備員とKESOYO">
-                        <span class="gallery-label">施設・セキュリティ</span>
+                    <div class="gallery-item card">
+                        <div class="card-image">
+                            <img src="assets/images/警備員９・１６.jpg" alt="セキュリティ">
+                        </div>
+                        <div class="card-content">
+                            <h4>Security</h4>
+                            <p>施設・警備</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item card">
+                        <div class="card-image">
+                            <img src="assets/images/shelf.jpg" alt="シェルフ">
+                        </div>
+                        <div class="card-content">
+                            <h4>Shelf</h4>
+                            <p>本棚・シェルフ</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Section 2: 使用方法 -->
-        <section class="howto section bg-light">
+        <section class="howto section" id="howto">
             <div class="container">
-                <div class="section-header center">
-                    <span class="section-subtitle">HOW TO USE</span>
-                    <h3 class="section-title">使用方法</h3>
-                    <p class="section-desc">
-                        いざという時も、迷わず使える。<br>
-                        ワンプッシュで誰でも簡単に消火できます。
-                    </p>
-                </div>
-                <div class="howto-image">
-                    <img src="assets/images/使い方説明.jpg" alt="KESOYOの使い方">
+                <div class="howto-wrapper">
+                    <div class="howto-text">
+                        <span class="section-subtitle">HOW TO USE</span>
+                        <h3 class="section-title">使用方法</h3>
+                        <p>いざという時も、迷わず使える。<br>ワンプッシュで誰でも簡単に消火できます。</p>
+                        <ul class="feature-list">
+                            <li><span class="check">✓</span> 押すだけ簡単</li>
+                            <li><span class="check">✓</span> 気体で消すから跡が残らない</li>
+                            <li><span class="check">✓</span> 消防庁確認済み</li>
+                        </ul>
+                    </div>
+                    <div class="howto-image card">
+                        <img src="assets/images/使い方説明.jpg" alt="KESOYOの使い方">
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Section 3: 贈答にも便利 -->
-        <section class="gift section">
+        <section class="gift section bg-warm" id="gift">
             <div class="container">
                 <div class="section-header center">
                     <span class="section-subtitle">GIFT</span>
                     <h3 class="section-title">贈答にも便利</h3>
-                    <p class="section-desc">
-                        大切な人への贈り物に。<br>
-                        新築祝い、引越し祝い、開店祝いに最適です。
-                    </p>
+                    <p class="section-desc">大切な人への特別な贈り物に</p>
                 </div>
                 <div class="gift-grid">
-                    <div class="gift-item">
-                        <img src="assets/images/箱イメージ.jpg" alt="KESOYOの高級パッケージ">
-                        <p>高級感のあるパッケージ</p>
+                    <div class="gift-item card">
+                        <div class="card-image square">
+                            <img src="assets/images/箱イメージ.jpg" alt="高級パッケージ">
+                        </div>
+                        <div class="card-content">
+                            <p>高級感のあるパッケージ</p>
+                        </div>
                     </div>
-                    <div class="gift-item">
-                        <img src="assets/images/贈答.jpg" alt="贈り物としてのKESOYO">
-                        <p>贈り物にぴったり</p>
+                    <div class="gift-item card">
+                        <div class="card-image square">
+                            <img src="assets/images/贈答.jpg" alt="贈り物">
+                        </div>
+                        <div class="card-content">
+                            <p>贈り物にぴったり</p>
+                        </div>
                     </div>
-                    <div class="gift-item">
-                        <img src="assets/images/カラバリ９．１６.jpg" alt="KESOYOカラーバリエーション">
-                        <p>選べるカラーバリエーション</p>
+                    <div class="gift-item card">
+                        <div class="card-image square">
+                            <img src="assets/images/カラバリ９．１６.jpg" alt="カラーバリエーション">
+                        </div>
+                        <div class="card-content">
+                            <p>選べるカラー</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta section">
+            <div class="container center">
+                <h3>大切な人を、スマートに守る。</h3>
+                <p>新築祝い・引越し祝い・開店祝いに最適</p>
+                <a href="#" class="btn btn-primary btn-lg">公式ストアで購入する</a>
             </div>
         </section>
 
@@ -114,9 +177,7 @@
         <footer class="footer" id="contact">
             <div class="container center">
                 <h2 class="footer-logo">KESOYO</h2>
-                <p>お問い合わせ・ご購入</p>
-                <a href="#" class="btn btn-primary large">公式オンラインストアへ</a>
-                <p class="copyright">&copy; 2026 BeCreative Inc. All Rights Reserved.</p>
+                <p class="copyright">&copy; 2026 BeCreative Inc.</p>
             </div>
         </footer>
     </main>
