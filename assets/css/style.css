@@ -565,6 +565,16 @@ h1, h2, h3, h4 {
     margin-bottom: 24px;
 }
 
+.initial-fee {
+    font-size: 0.9rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 16px;
+    padding: 8px;
+    background: rgba(201, 169, 98, 0.1);
+    border-radius: 4px;
+}
+
 .pricing-features li {
     padding: 8px 0;
     font-size: 0.9rem;
