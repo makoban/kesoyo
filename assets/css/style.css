@@ -85,9 +85,9 @@ h1, h2, h3, h4 {
     width: 100%;
     padding: 16px 0;
     z-index: 100;
-    background: rgba(255,255,255,0.95);
+    background: rgba(50, 50, 50, 0.95);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .header .container {
@@ -100,6 +100,7 @@ h1, h2, h3, h4 {
     font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 0.15em;
+    color: #fff;
 }
 
 .nav {
