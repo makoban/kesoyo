@@ -1,16 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const header = document.querySelector('.header');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.style.background = 'rgba(255, 255, 255, 0.9)';
-            header.style.backdropFilter = 'blur(10px)';
-            header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.05)';
-        } else {
-            header.style.background = 'transparent';
-            header.style.backdropFilter = 'none';
-            header.style.boxShadow = 'none';
-        }
-    });
+    // Header stays gray - no scroll color change
 
     const observerOptions = { threshold: 0.1 };
     const observer = new IntersectionObserver((entries) => {

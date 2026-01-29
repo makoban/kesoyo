@@ -369,6 +369,80 @@ h1, h2, h3, h4 {
     display: block;
 }
 
+/* Performance Section */
+.performance-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.performance-image img {
+    width: 100%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.performance-text .section-title {
+    margin-top: 8px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.stats-grid.stats-4col {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 24px;
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.stat-number {
+    font-family: var(--font-en);
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--accent);
+    display: block;
+    line-height: 1;
+}
+
+.stat-number-text {
+    font-family: var(--font-en);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--accent);
+    display: block;
+    line-height: 1.3;
+}
+
+.stat-number small {
+    font-size: 1.5rem;
+    color: var(--text);
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-top: 8px;
+    display: block;
+}
+
+.performance-desc {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
 /* Gift Grid */
 .gift-grid {
     display: grid;
