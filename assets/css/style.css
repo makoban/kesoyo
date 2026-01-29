@@ -108,11 +108,12 @@ h1, h2, h3, h4 {
 }
 
 .nav a {
-    color: var(--text);
+    color: var(--primary);
     text-decoration: none;
     font-size: 0.85rem;
     letter-spacing: 0.05em;
     transition: color 0.3s;
+    font-weight: 500;
 }
 
 .nav a:hover {
